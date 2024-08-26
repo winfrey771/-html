@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="description" content="Basic html template">
+        <meta name="author" content="winfrey">
+        <title>Expense Tracker Application</title>
+    </head>
+    <body>
+        <header>
+            <h1>Expense Tracker</h1>
+        </header>
+        <section>
+            <h2>Welcome to the Expense Track application</h2>
+            <p>Track and manage your finances with ease.Register below to get started</p>
+        </section>
+        <section>
+            <h3>Register here</h3>
+            <form action="/submit_registration" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email id" id="email" name="email" required><br><br>
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone" required><br><br>
+                <input type="submit" value="Register">
+
+            </form>
+        </section>
+        <section>
+            <h3>Register users</h3>
+            <table border="1">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone Number</th>
+                </tr>
+                <tr>
+                    <td>Winnie Omino</td>
+                    <td>winnie.omino@gmail.com</td>
+                    <td>075-476-8795</td>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h3>My app in action</h3>
+            <img src="expense-tracker.jpg" alt="Expense Tracker Application" width="300">
+        </section>
+        <section>
+            <p>For more information, visit <a href="https://google.com" target="_blank">Google</a>.</p>
+        </section>
+    </body>
+</html>
